@@ -1,0 +1,271 @@
+#img-ariel:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+
+    
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* NAVBAR */
+.nav-bar {
+  background-color: #0d1b2a;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.nav-links a {
+  color: #f4f4f4;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+ 
+}
+
+.nav-links a:hover {
+  color: #fca311;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* SECTION PRINCIPALE */
+.content-section {
+  padding-top: 120px;
+  background: linear-gradient(135deg, #fdfdfd, #f4f4f4);
+  min-height: 100vh;
+}
+
+.intro-text {
+  padding-left: 75px;
+}
+
+.welcome-text {
+  color: #fca311;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.name-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  color: #14213d;
+  letter-spacing: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+}
+
+.description {
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* IMAGE & BADGE */
+.profile-pic {
+  border-radius: 50%;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 70px;
+  margin-top: 50px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.tech-stack {
+  background-color: #0d1b2a;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 90px;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Image de fond */
+#img-ariel{
+  border-radius:50%;
+}
+
+/* Section About Me */
+.About-Me {
+  padding-top: 90px;
+ color:#f9f9f9;
+  background-color: #0d1b2a;
+  min-height: 100vh;
+}
+.About-Me-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #fca311;
+  letter-spacing: 4px;
+}
+.img-About-me{
+  border-radius:50px;
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 70px;
+  
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+#universite{
+  margin-top: 50px;
+}
+/* Mes competences */
+.skills-section{
+  padding-top: 90px;
+  color:#0d1b2a;
+  background: linear-gradient(135deg, #fdfdfd, #f4f4f4);
+  min-height: 100vh;
+}
+/* Mes competences */
+.skills-title{
+  color: #fca311;
+   text-decoration: underline;
+   font-size: 35px;
+}
+.skill{
+  padding-top: 20px;
+  color:#0d1b2a;
+  margin-left: 110px;
+ 
+}
+
+/* BARRE DE PROGRESSION COMPETENCE */
+.bar-progression{
+  border-radius:50px;
+  background-color:#e9d2d2;
+  margin-left: 50px;
+  height: 20px;
+  width: 200px;
+  border: 5px;
+}
+
+.progression-python{
+  width: 75%;
+  height:100%;
+  background-color: rgb(5, 66, 198);
+  border-radius:50px;
+}
+
+.progression-R{
+  width: 40%;
+  height:100%;
+  background-color: rgb(5, 66, 198);
+  border-radius:50px;
+
+}
+.progression-js{
+  width: 50%;
+  height:100%;
+  background-color: rgb(5, 66, 198);
+  border-radius:50px;
+
+}
+
+.progression-c{
+  width: 60%;
+  height:100%;
+  background-color: rgb(5, 66, 198);
+  border-radius:50px;
+
+}
+
+.skill-web{
+  padding-top: 102px;
+  color:#0d1b2a;
+  margin-left: 110px;
+
+}
+.progression-HTML{
+  width: 90%;
+  height:100%;
+  background-color: rgb(5, 66, 198);
+  border-radius:50px;
+
+}
+.progression-sql{
+  width: 80%;
+  height:100%;
+  background-color: rgb(5, 66, 198);
+  border-radius:50px;
+}
+
+/*Competence Framework */
+.framework-place{
+  padding-left: 30px;
+  padding-top: 40px;
+  color:#0d1b2a;
+  
+}
+.framework{
+  border-radius:50px;
+  background-color:#e9d2d2;
+  margin-left: 50px;
+  height: 20px;
+  width: 200px;
+  border: 5px;
+
+}
+
+.progression-Django{
+  width: 75%;
+  height:100%;
+  background-color: rgb(198, 108, 5);
+  border-radius:50px;
+
+}
+
+.progression-QT{
+  width: 50%;
+  height:100%;
+  background-color: rgb(198, 108, 5);
+  border-radius:50px;
+}
+.progression-flask{
+   width: 50%;
+  height:100%;
+  background-color: rgb(198, 108, 5);
+  border-radius:50px;
+}
+/* SECTION CERTIFICAT */
+.certifications-section{
+   padding-top: 90px;
+  color:#f9f9f9;
+  background-color: #0d1b2a;
+  min-height: 100vh;
+}
+
+.img-certificat{
+  height:200px;
+   width:350px;
+   border-radius:10px;
+   transition:transform 0.2s;
+
+}
+
+.img-certificat:hover{
+  
+   transform: scale(1.1);
+
+}
